@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Anti-counterfeit</string>
+    <string name="enter_serial_number">ENTER SERIAL NUMBER.</string>
+    <string name="scan_bar_code">SCAN BAR CODE</string>
+    <string name="scan">SCAN</string>
+    <string name="submit">SUBMIT</string>
+    <string name="an_error_occurred">An error occurred. Please try again.</string>
+    <string name="item_not_found">Item not found</string>
+    <string name="item_found">Item found</string>
+    <string name="ok">OK</string>
+</resources>

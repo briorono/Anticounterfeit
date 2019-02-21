@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "463981497100",
+    "firebase_url": "https://anticounterfeit-6a735.firebaseio.com",
+    "project_id": "anticounterfeit-6a735",
+    "storage_bucket": "anticounterfeit-6a735.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463981497100:android:3553dafd8b916a80",
+        "android_client_info": {
+          "package_name": "com.example.brio.anti_counterfeit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463981497100-vc1k3cakmpqce3ma5m0adng3pvgqncb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brio.anti_counterfeit",
+            "certificate_hash": "2cfec3fa50a89211d485f5e72e90794b0effd99b"
+          }
+        },
+        {
+          "client_id": "463981497100-b92q643or4d5fmjqrpiii5i54ovmmnuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBft7rNtkNM5IbtClktTAkFkjWm1XCggd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463981497100-b92q643or4d5fmjqrpiii5i54ovmmnuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

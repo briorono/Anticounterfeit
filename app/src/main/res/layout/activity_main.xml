@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg4"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -15,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:background="@mipmap/ic_launcher"
             android:contentDescription="@string/app_name"
             android:src="@mipmap/ic_launcher" />
 
@@ -89,9 +91,17 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-
+            <TextView
+                android:id="@+id/textreport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="if product NOT found press here to report.."
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic" />
         </LinearLayout>
 
 
     </RelativeLayout>
+
+
 </ScrollView>

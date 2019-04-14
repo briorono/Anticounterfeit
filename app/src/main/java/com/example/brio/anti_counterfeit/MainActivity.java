@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonscan;
     private Button buttonSubmit;
     private ProgressBar progressBar;
+    private TextView textreport;
 
     private FirebaseFirestore db;
 
@@ -50,6 +52,14 @@ public class MainActivity extends AppCompatActivity {
         buttonscan = findViewById(R.id.buttonscan);
         buttonSubmit = findViewById(R.id.buttonsubmit);
         progressBar = findViewById(R.id.progress_bar);
+        textreport = findViewById(R.id.textreport);
+
+        textreport.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, Activitylogin.class);
+                startActivity(intent);
+            }
+        });
 
         buttonscan.setOnClickListener(new View.OnClickListener() {
             @Override
